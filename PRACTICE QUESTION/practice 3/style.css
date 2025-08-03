@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.img{
+    width: 100%;
+    background: url(img.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 109vh;
+    position: fixed;
+}
+.heading{
+    font-size: 30px;
+    padding-top: 20px;
+    margin-left: 20px;
+    color: rgb(217, 171, 87);
+
+}
+
+.header{
+
+    padding: 20px;
+    padding-top: 100px;
+    
+
+}
+.header h1{
+    font-weight: bolder;
+    color: white;
+    font-size: 40px; 
+}
+
+.header p{
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+}
+
+.btn{ 
+  margin-top: 10px;
+  font-size: 17px;
+  border-radius: 5px;
+  color: black;
+  
+}
