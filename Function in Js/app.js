@@ -23,3 +23,17 @@ function addNumber() {
 
 let result = addNumber(23,45,56);
 console.log(result);
+
+
+
+// Spread Operator.
+function addNumber1(...spread ){
+    let ans = 0;
+    for (let i = 0; i < spread.length; i++){
+        ans = ans + spread[i];
+    }
+    return ans
+}
+
+let result1 = addNumber1(10, 10);
+console.log(result1);
