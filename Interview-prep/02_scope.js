@@ -13,6 +13,8 @@ console.log(name); // Accessible here too
 
 
 
+
+
 // 2. Function Scope (Local Scope) :-- Variables declared inside a function are accessible only within that function.
 function test() {
   let message = "Inside function";
@@ -20,7 +22,10 @@ function test() {
 }
 
 test();
-console.log(message); // ❌ Error: message is not defined
+console.log(message); // ❌ Error: message is not defined.
+
+
+
 
 // 3. Block Scope :--- Variables declared using let or const inside a block ({}) are only accessible within that block.
 if (true) {
