@@ -16,7 +16,7 @@ console.log(name); // Accessible here too
 // 2. Function Scope (Local Scope) :-- Variables declared inside a function are accessible only within that function.
 function test() {
   let message = "Inside function";
-  console.log(message); // Accessible here
+  console.log(message); // Accessible 
 }
 
 test();
