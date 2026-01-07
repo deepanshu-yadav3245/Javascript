@@ -7,7 +7,7 @@ let name = "rahul"
 let age = 18;
 let isLogginIn = false;
 
-//  Types of datatype in JS
+//  Types of datatype i“Created by AI, defined by vision.”“Created by AI, defined by vision.”“Created by AI, defined by vision.”“Created by AI, defined by vision.”n JS
 
 // number => 2 to power 53
 // bigint
