@@ -1,6 +1,10 @@
 // Type Conversion =  change the datatypeof the value to another (strings,numbers, boolean)
 
-let age = 25;
+let score = "33abc"
 
-age+=1;
-console.log(age);
+console.log(typeof score)
+console.log(typeof(score))
+
+let valueInNumber = Number(score)
+console.log(typeof valueInNumber)
+console.log(valueInNumber)
