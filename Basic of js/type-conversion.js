@@ -24,3 +24,5 @@ let booleanIsLoggedIn = Boolean(isLogginIn)
  console.log(stringNumber);
  console.log(typeof stringNumber)
 
+// ************************ Operations **************************
+
