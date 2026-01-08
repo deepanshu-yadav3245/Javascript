@@ -12,3 +12,9 @@ console.log(false == 0);
 console.log(false === 0);
 console.log(false >= 0);
 console.log(false <= 0);        
+
+console.log(' \t\r\n' == 0);
+console.log(' \t\r\n' === 0);   
+console.log(' \t\r\n' > 0);
+console.log(' \t\r\n' < 0); 
+console.log(' \t\r\n' >= 0);    
