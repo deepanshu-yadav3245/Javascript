@@ -20,15 +20,15 @@ console.log(name.slice(0,3));// start index , end index (end not included)
 console.log(name.replace("rahul", "Rahul"));   // replaces first occurrence 
 console.log(name.includes("ha"));  // true
 console.log(name.split(""));    // splits into array based on separator
-console.log(name.split("a"));
-console.log(name.startsWith("ra"));
-console.log(name.endsWith("ul"));           
-console.log(name.charAt(2));
+console.log(name.split("a"));  // splits into array based on separator
+console.log(name.startsWith("ra")); // true
+console.log(name.endsWith("ul"));   // true        
+console.log(name.charAt(2));     // character at index 2
 console.log(name.indexOf("h")); // first occurrence
 console.log(name.lastIndexOf("l"));  // last occurrence
-console.log(name.repeat(3));
+console.log(name.repeat(3)); // repeats string n times
 console.log(name.trim()); // removes whitespace from both ends  
-console.log(name.concat(" Kumar"));
+console.log(name.concat(" Kumar")); // concatenates strings
 console.log(name.padStart(10, "*")); // total length 10
 console.log(name.padEnd(10, "-"));   // total length 10 
 console.log(name.search("hu"));
