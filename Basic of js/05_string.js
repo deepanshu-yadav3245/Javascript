@@ -24,8 +24,8 @@ console.log(name.split("a"));
 console.log(name.startsWith("ra"));
 console.log(name.endsWith("ul"));           
 console.log(name.charAt(2));
-console.log(name.indexOf("h"));
-console.log(name.lastIndexOf("l"));
+console.log(name.indexOf("h")); // first occurrence
+console.log(name.lastIndexOf("l"));  // last occurrence
 console.log(name.repeat(3));
 console.log(name.trim()); // removes whitespace from both ends  
 console.log(name.concat(" Kumar"));
