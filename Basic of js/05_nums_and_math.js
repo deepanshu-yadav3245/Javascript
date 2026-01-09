@@ -1,6 +1,7 @@
 // Number and Math In JavaScript
 // JavaScript has a single number type: 64-bit floating point (like Java's double).
 
+
 // It can represent both integers and floating-point numbers.       
 let integerNum = 42;          // An integer
 let floatNum = 3.14;         // A floating-point number     
@@ -13,6 +14,7 @@ let infinityNum = Infinity;          // Represents positive infinity
 let negativeInfinityNum = -Infinity; // Represents negative infinity
 let notANumber = NaN;               // Represents an invalid number
 // console.log(infinityNum, negativeInfinityNum, notANumber);  
+
 // Basic arithmetic operations
 let sum = 5 + 3;          // Addition
 let difference = 10 - 4;  // Subtraction
@@ -29,3 +31,7 @@ let randomNum = Math.random();   // Random number between 0 and 1
 // console.log(roundedNum, powerNum, squareRoot, randomNum);
 
 
+
+// *********************************Maths*********************************
+
+console.log(Math);
