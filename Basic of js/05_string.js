@@ -13,13 +13,13 @@ const gameName = new String("Fall Guys")
 // String Properties and Methods
 console.log(name.length); // property
 
-console.log(name.toUpperCase());    
-console.log(name.toLowerCase());
+console.log(name.toUpperCase()); 
+console.log(name.toLowerCase()); //
 
-console.log(name.slice(0,3));
-console.log(name.replace("rahul", "Rahul"));    
-console.log(name.includes("ha"));
-console.log(name.split(""));    
+console.log(name.slice(0,3));// start index , end index (end not included)
+console.log(name.replace("rahul", "Rahul"));   // replaces first occurrence 
+console.log(name.includes("ha"));  // true
+console.log(name.split(""));    // splits into array based on separator
 console.log(name.split("a"));
 console.log(name.startsWith("ra"));
 console.log(name.endsWith("ul"));           
