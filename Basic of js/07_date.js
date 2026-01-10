@@ -79,7 +79,12 @@ let myCreatedDate = new Date("01-10-2026")
 // console.log(myCreatedDate.toLocaleDateString())
 
 let myTimeStamp = Date.now();
+// console.log(myTimeStamp);
+// console.log(myCreatedDate.getTime());
+// console.log(Math.floor(Date.now()/1000));
 
-console.log(myTimeStamp);
-console.log(myCreatedDate.getTime());
-console.log(Math.floor(Date.now()/1000));
+
+newDate.toLocalString('default',{
+    weekday: "long",
+})
+
