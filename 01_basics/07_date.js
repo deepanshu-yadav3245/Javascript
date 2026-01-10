@@ -6,7 +6,7 @@ let currentDate = new Date(); // Current date and time
 let specificDate = new Date('2023-01-01'); // Specific date
 let specificDateTime = new Date('2023-01-01T10:30:00'); // Specific date and time
 // console.log(currentDate);
-// console.log(specificDate);
+// console.log(specificDate); 
 // console.log(specificDateTime);   
 
 // Getting date components
