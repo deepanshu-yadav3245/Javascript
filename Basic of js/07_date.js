@@ -59,7 +59,7 @@ let differenceInDays = differenceInTime / (1000 * 3600 * 24); // Convert to days
 
 let d = new Date();
 
-console.log(d.getDate()); // Day of the month (1-31) 
+// console.log(d.getDate()); // Day of the month (1-31) 
 // console.log(d.getDay()); // Day of the week (0-6)
 // console.log(d.getFullYear()); // Full year (e.g., 2023)
 // console.log(d.getHours()); // Hours (0-23)
@@ -68,8 +68,18 @@ console.log(d.getDate()); // Day of the month (1-31)
 // console.log(d.getMonth()); // Month (0-11)
 // console.log(d.getSeconds()); // Seconds (0-59)
 // console.log(d.getTime()); // Timestamp in milliseconds since January 1, 1970
-console.log(d.toString()) 
-console.log(typeof d);
+// console.log(d.toString()) 
+// console.log(typeof d);
 // console.log(d.toDateString()); // Readable date string
 // console.log(d.toTimeString()); // Readable time string
 // console.log(d.toISOString()); // ISO format string
+
+
+let myCreatedDate = new Date("01-10-2026")
+// console.log(myCreatedDate.toLocaleDateString())
+
+let myTimeStamp = Date.now();
+
+console.log(myTimeStamp);
+console.log(myCreatedDate.getTime());
+console.log(Math.floor(Date.now()/1000));
