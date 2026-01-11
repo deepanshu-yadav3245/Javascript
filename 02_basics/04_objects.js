@@ -53,3 +53,4 @@ const course = {
 // course.courseName  // JavaScript
 
 const {courseInstructor} = course
+console.log(courseInstructor)  // Deepanshu Yadav   
