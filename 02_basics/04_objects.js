@@ -44,3 +44,12 @@ console.log("=================================================================")
 
 // Destructuring Objects
 
+const course = {
+    courseName: "JavaScript",
+    price: 999,
+    courseInstructor: "Deepanshu Yadav"
+}   
+
+// course.courseName  // JavaScript
+
+const {courseInstructor} = course
