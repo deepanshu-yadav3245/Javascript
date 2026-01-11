@@ -15,7 +15,7 @@ const regularUser = {
     fullname: {
         userFullname: {
             firstName: "Deepanshu",
-            lastName: "Yadav Ji"
+            lastName: "Yadav Ji
         }
     }     
 }
@@ -41,4 +41,4 @@ console.log(obj3)  // Output: { '1': 'a', '2': 'b', '3': 'c', '4': 'd' }
  
 console.log("=================================================================")        
 
- 
+ //
