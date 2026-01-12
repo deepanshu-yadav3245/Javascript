@@ -74,7 +74,7 @@ console.log(loginUserMessage("Deepanshu"));
 
 console.log(("=============================================================="));    
 
-function calculateCartprice(...num1){ // rest operator
+function calculateCartprice(...num1){ // rest operator:- rest operator collects all the arguments into an array
     return num1 
 }
 
