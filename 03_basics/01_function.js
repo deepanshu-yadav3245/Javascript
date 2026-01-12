@@ -1,4 +1,5 @@
 // What is a Function?
+
 // A function is a reusable block of code that performs a specific task.
 // Functions help to organize code, make it more readable, and allow for code reuse.    
 
@@ -59,6 +60,8 @@ console.log("The result is : ", result); // Output: The result is: 10
 
 console.log("==============================================================");
 
+
+
 function loginUserMessage(username = "Rahul"){
     if (username === undefined){
         console.log("Please Enter a UserName")
@@ -66,5 +69,5 @@ function loginUserMessage(username = "Rahul"){
     }
     return `Welcome back, ${username}!`;
 }
-
 console.log(loginUserMessage("Deepanshu"));
+
