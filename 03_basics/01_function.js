@@ -74,3 +74,8 @@ console.log(loginUserMessage("Deepanshu"));
 
 console.log(("=============================================================="));    
 
+function calculateCartprice(...num1){ // rest operator
+    return num1 
+}
+
+console.log(calculateCartprice(200,400,500))
