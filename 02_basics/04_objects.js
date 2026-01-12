@@ -45,7 +45,7 @@ console.log("=================================================================")
 // Destructuring Objects
 
 const course = {
-    courseName: "JavaScript",
+    courseName: "JavaScript"
     price: 999,
     courseInstructor: "Deepanshu Yadav"
 }   
