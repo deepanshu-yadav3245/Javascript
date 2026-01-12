@@ -60,7 +60,11 @@ console.log("The result is : ", result); // Output: The result is: 10
 console.log("==============================================================");
 
 function loginUserMessage(username){
+    if (username === undefined){
+        console.log("Please Enter a UserName")
+        return
+    }
     return `Welcome back, ${username}!`;
 }
 
-loginUserMessage("Rahul")
+console.log(loginUserMessage());
