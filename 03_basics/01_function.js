@@ -77,5 +77,16 @@ console.log(("=============================================================="));
 function calculateCartprice(...num1){ // rest operator:- rest operator collects all the arguments into an array
     return num1 
 }
-
 console.log(calculateCartprice(200,400,500))
+
+console.log("==============================================================");  
+
+const user = {
+    username: "sachin",
+    price: 5000,
+}
+
+function handleObject(anyobject){
+    console.log(`username is: ${anyobject.username} and price is: ${anyobject.price}`);
+
+}
