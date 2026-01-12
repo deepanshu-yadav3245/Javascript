@@ -50,9 +50,15 @@ console.log("==============================================================");
 
 function addTwoNumbers(num1, num2) {
 
-    let result = num1 + num2;
-    return result;
+    return num1 + num2;
 }
 
 const result = addTwoNumbers(3, 7);
 console.log("The result is : ", result); // Output: The result is: 10
+
+
+console.log("==============================================================");
+
+function loginUserMessage(username){
+    return `Welcome back, ${username}!`;
+}
