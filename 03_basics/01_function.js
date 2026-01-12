@@ -47,3 +47,12 @@ const divide = function(a, b) {
 console.log("Divide:", divide(10, 2)); // Output: Divide: 5
 
 console.log("==============================================================");
+
+function addTwoNumbers(num1, num2) {
+
+    let result = num1 + num2;
+    return result;
+}
+
+const result = addTwoNumbers(3, 7);
+console.log("The result is : ", result); // Output: The result is: 10
