@@ -28,5 +28,6 @@
 
 
 // this Keyword in Arrow Functions:--
+// Arrow functions do not have their own 'this' context. Instead, they inherit 'this' from the surrounding lexical scope.
 
  
