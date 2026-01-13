@@ -36,7 +36,12 @@ const user = {
 
     welcomeMessage: function(){
         console.log(`Welcome, ${this.username}`); // 'this' refers to the user object
+        console.log(this);
     }
 }
 
- 
+// user.welcomeMessage(); // Output: Welcome, Rahul
+// user.username = 'Ankit'
+// user.welcomeMessage(); // Output: Welcome, Ankit
+
+// console.log(this)
