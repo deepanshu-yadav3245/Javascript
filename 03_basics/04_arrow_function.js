@@ -29,19 +29,19 @@
 
 // this Keyword in Arrow Functions:--
 // Arrow functions do not have their own 'this' context. Instead, they inherit 'this' from the surrounding lexical scope.
-
 const user = {
-    username: 'Rahul',
-    price:200,
+  username: "Rahul",
+  price: 200,
 
-    welcomeMessage: function(){
-        console.log(`Welcome, ${this.username}`); // 'this' refers to the user object
-        console.log(this);
-    }
-}
+  welcomeMessage: function () {
+    console.log(`Welcome, ${this.username}`);
+    console.log(this);
+  }
+};
 
-user.welcomeMessage(); // Output: Welcome, Rahul
-user.username = 'Ankit'
-user.welcomeMessage(); // Output: Welcome, Ankit
+user.welcomeMessage();
+user.username = "Ankit";
+user.welcomeMessage();
+
 
 // console.log(this)
