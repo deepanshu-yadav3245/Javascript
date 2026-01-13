@@ -40,8 +40,8 @@ const user = {
     }
 }
 
-// user.welcomeMessage(); // Output: Welcome, Rahul
-// user.username = 'Ankit'
-// user.welcomeMessage(); // Output: Welcome, Ankit
+user.welcomeMessage(); // Output: Welcome, Rahul
+user.username = 'Ankit'
+user.welcomeMessage(); // Output: Welcome, Ankit
 
 // console.log(this)
