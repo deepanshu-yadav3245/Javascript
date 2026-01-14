@@ -23,8 +23,11 @@
 // create private variables, and encapsulate code.  
 // They are particularly useful in scenarios where you want to execute some code
 
+console.log("================================================================================")
 
 
+// Example using arrow function syntax:
 ( () => {
       console.log("This is an IIFE using arrow function syntax.");  
 })()
+
