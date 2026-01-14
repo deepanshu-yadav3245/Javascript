@@ -45,3 +45,13 @@ user.welcomeMessage();
 
 
 // console.log(this)
+
+
+console.log("==============================================================")
+
+
+function chai(){
+  let username = "LocalUser"
+  console.log(this)
+}
+chai()
