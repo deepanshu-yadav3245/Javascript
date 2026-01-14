@@ -52,6 +52,5 @@ console.log("==============================================================")
 
 function chai(){
   let username = "LocalUser"
-  console.log(this)
-}
-chai()
+  console.log(this.username) 
+} // undefined because 'this' refers to the global object, which does not have a 'username' property.
