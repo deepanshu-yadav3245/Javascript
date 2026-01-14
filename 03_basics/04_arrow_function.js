@@ -56,3 +56,23 @@ function chai(){
 } // undefined because 'this' refers to the global object, which does not have a 'username' property.
 
 chai();
+
+// Arrow function Example: 
+
+const chaiArrow = () => {
+  let username = "LocalUser"
+  console.log(this.username)      
+}
+chaiArrow(); // undefined because 'this' in arrow functions refers to the surrounding lexical scope, which is the global scope here.
+
+console.log("==============================================================") 
+
+// const addTwo = (num1,num2) =>  num1 + num2; 
+
+// const addTwo = (num,num2) => ( num + num2 ); 
+
+const addTwo = (num1,num2) => ({ username: "ChangedUser" });  // object
+
+
+
+console.log(addTwo(5,10));
