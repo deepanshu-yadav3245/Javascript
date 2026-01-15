@@ -31,3 +31,20 @@ const balance = 1000;
 
 if (balance > 500) console.log("You have a healthy balance!"); // this is explicit way of writing if statement without curly braces
 
+
+console.log("============================================================") 
+
+// Nested If statement :-- An if statement inside another if statement.
+
+const NetBalance = 1500;
+
+if (NetBalance > 1000) {
+    console.log("You have a good balance.");    
+} else if (NetBalance > 2000) {
+        console.log("You have a great balance!");
+    } else if (NetBalance > 3000) {
+            console.log("You have an excellent balance!");
+        }   else {
+                console.log("You have a low balance.");
+            } 
+
