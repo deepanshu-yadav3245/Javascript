@@ -14,3 +14,13 @@ if (temperature === 51) {
     console.log("The temperature is greater than 50.");
 }
  
+console.log("==============================================================================")
+
+const score = 200;
+
+if (score > 100){
+    const power = "Super Strength";
+    console.log(`You have unlocked ${power}!`);
+}
+
+
