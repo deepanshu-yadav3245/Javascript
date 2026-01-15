@@ -14,7 +14,7 @@ if (temperature === 51) {
     console.log("The temperature is greater than 50.");
 }
  
-console.log("==============================================================================")
+console.log("============================================================")
 
 const score = 200;
 
@@ -22,5 +22,12 @@ if (score > 100){
     const power = "Super Strength";
     console.log(`You have unlocked ${power}!`);
 }
+// console.log(`Your power is ${power}.`); // This will throw an error because 'power' is not defined outside the if block
 
+
+console.log("============================================================")
+
+const balance = 1000;
+
+if (balance > 500) console.log("You have a healthy balance!"); // this is explicit way of writing if statement without curly braces
 
