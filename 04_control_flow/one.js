@@ -48,3 +48,6 @@ if (NetBalance > 1000) {
                 console.log("You have a low balance.");
             } 
 
+
+console.log("============================================================")
+
