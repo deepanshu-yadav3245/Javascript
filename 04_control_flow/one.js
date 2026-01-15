@@ -11,4 +11,4 @@ const temperature = 50;
 if (temperature < 60) {
     console.log("It's a bit chilly outside.");
 }
-console.log("Temperature is greater than 60.");
+console.log("This line will always be executed.");  
