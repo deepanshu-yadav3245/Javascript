@@ -8,7 +8,9 @@
 const isUserLoggedIn = true;
 const temperature = 50;
 
-if (temperature < 60) {
+if (temperature === 51) {
     console.log("It's a bit chilly outside.");
+} else{
+    console.log("The temperature is greater than 50.");
 }
-console.log("This line will always be executed.");  
+ 
