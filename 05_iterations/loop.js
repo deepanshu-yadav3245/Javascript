@@ -39,10 +39,13 @@
  */
 
 
+
 // 1. for loop
 for (let i = 0; i < 5; i++) {
     console.log(i);
 }
+
+console.log("================================================================")
 
 // 2. while loop
 let i = 0;
@@ -51,6 +54,8 @@ while (i < 5) {
     i++;
 }
 
+console.log("================================================================")
+
 // 3. do...while loop
 let j = 0;
 do {
@@ -58,11 +63,16 @@ do {
     j++;
 } while (j < 5);
 
+console.log("================================================================")
+
+
 // 4. for...of loop (for arrays and iterables)
 const arr = [10, 20, 30];
 for (const value of arr) {
     console.log(value);
 }
+
+console.log("================================================================")
 
 // 5. for...in loop (for object keys)
 const obj = { name: 'John', age: 30 };
@@ -70,11 +80,18 @@ for (const key in obj) {
     console.log(key, obj[key]);
 }
 
+console.log("================================================================")
+
 // 6. forEach method
 arr.forEach((value, index) => {
     console.log(index, value);
 });
 
+console.log("================================================================")
+
 // 7. map method (returns new array)
 const doubled = arr.map(val => val * 2);
 console.log(doubled);
+
+
+console.log("================================================================")
