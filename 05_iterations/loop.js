@@ -115,3 +115,50 @@ for (let i = 0; i <= 4; i++){
     }
 }
 
+console.log("=============================================================")
+
+// BREAK: Terminates the loop immediately when condition is met
+console.log("Break Example:");
+for (let i = 0; i < 10; i++) {
+    if (i === 5) {
+        break; // Exit loop when i equals 5
+    }
+    console.log(i);
+}
+
+console.log("=============================================================")
+
+// CONTINUE: Skips the current iteration and moves to the next one
+console.log("Continue Example:");
+for (let i = 0; i < 10; i++) {
+    if (i === 5) {
+        continue; // Skip when i equals 5
+    }
+    console.log(i);
+}
+
+console.log("=============================================================")
+
+// Break in nested loop (breaks inner loop only)
+console.log("Break in Nested Loop:");
+for (let i = 0; i < 3; i++) {
+    for (let j = 0; j < 3; j++) {
+        if (j === 1) {
+            break; // Only breaks inner loop
+        }
+        console.log(`i: ${i}, j: ${j}`);
+    }
+}
+
+console.log("=============================================================")
+
+// Continue in nested loop
+console.log("Continue in Nested Loop:");
+for (let i = 0; i < 3; i++) {
+    for (let j = 0; j < 3; j++) {
+        if (j === 1) {
+            continue; // Skips only current iteration of inner loop
+        }
+        console.log(`i: ${i}, j: ${j}`);
+    }
+}
