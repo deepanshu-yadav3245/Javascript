@@ -1,7 +1,7 @@
 
 let index = 0
 while (index <= 10){
-    console.log(`Value of index is ${index}`)
+    // console.log(`Value of index is ${index}`)
     index = index + 2;
 }
 
@@ -12,3 +12,4 @@ while (arr < myArray.length) {
     console.log(`value is ${myArray[arr]}`);
     arr = arr + 1;
 }
+
