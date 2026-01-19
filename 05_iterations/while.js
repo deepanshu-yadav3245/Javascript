@@ -5,6 +5,8 @@ while (index <= 10){
     index = index + 2;
 }
 
+console.log('======================================================')
+
 let myArray = ['flash','batman','superman']
 
 let arr = 0;
@@ -13,5 +15,11 @@ while (arr < myArray.length) {
     arr = arr + 1;
 }
 
-//  Do while loop
+console.log('======================================================')
 
+//  Do while loop
+let score = 1
+do{
+    console.log(`Score is ${score}`)
+    score++
+} while (score <= 10)
