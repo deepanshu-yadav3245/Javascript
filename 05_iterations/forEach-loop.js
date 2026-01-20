@@ -78,6 +78,26 @@ for (const key in myObject) {
     console.log(`${key} shortcut is for ${myObject[key]}`);
 }
 
+console.log('=================================================')
+
+const myCoding = [
+    {
+        languageName: "Javascript",
+        languageFileName: "js"
+    },
+    
+    {
+        languageName: "Java",
+        languageFileName: "java"
+    },
+    {
+        languageName: "Python",
+        languageFileName: "py"
+    },
+]
+
+
+
 
 
  
