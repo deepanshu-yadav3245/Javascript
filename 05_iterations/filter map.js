@@ -5,12 +5,12 @@
 // })
 // console.log(values)
 
-const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+// const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
 
-const newNums = myNums.filter( (num) => {
-    return num > 4
-})
-console.log(newNums);
+// const newNums = myNums.filter( (num) => {
+//     return num > 4
+// })
+// console.log(newNums);
 
 console.log('=====================================================')
 
@@ -22,3 +22,5 @@ console.log(newFav)
 console.log("=====================================================")
 
 // chaining ekk ya do method ekk sath laga sakte hai
+
+const myNums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
